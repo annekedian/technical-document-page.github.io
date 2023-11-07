@@ -1,0 +1,55 @@
+/* Style the navbar */
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  overflow: auto;
+  background-color: #f4f4f4;
+}
+
+.header1 {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* Style the nav-link elements */
+.nav-link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid black;
+}
+
+/* Style the main-section elements */
+.main-section {
+  margin-left: 220px; /* Make room for the fixed navbar */
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  #navbar {
+    width: 250px;
+  }
+  .main-section {
+    margin-left: 270px; /* Adjust for the wider navbar */
+  }
+}
+
+*{
+  font-family: Tahoma;
+}
+
+header {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace; /* Example font family */
+  padding-left: 50px;
+}
